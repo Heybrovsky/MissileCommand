@@ -821,6 +821,10 @@ PrefabInstance:
       propertyPath: pools.Array.data[2].Tag
       value: Explosion
       objectReference: {fileID: 0}
+    - target: {fileID: 8593033382657350456, guid: 9f09ef2fb647ffa4db350782aac7c986, type: 3}
+      propertyPath: pools.Array.data[0].Size
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f09ef2fb647ffa4db350782aac7c986, type: 3}
 --- !u!1001 &6768805535029784278

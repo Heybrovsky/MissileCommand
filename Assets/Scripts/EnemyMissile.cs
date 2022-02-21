@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,8 +9,7 @@ public class EnemyMissile : MonoBehaviour
     private float _step;
     private float _missileSpeed = 5f;
 
-  
-    void Start()
+    private void OnEnable()
     {
         _objectPooler = GameObject.Find("ObjectPooler");
         _randomAttackPosition = Random.Range(-14f, 14f + 1f);

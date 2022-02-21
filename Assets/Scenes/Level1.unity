@@ -439,6 +439,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7230609810799500754, guid: da5cd89672af5f24ead3bf45a374e623, type: 3}
+      propertyPath: _SpawnCoolDown
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7230609810799500754, guid: da5cd89672af5f24ead3bf45a374e623, type: 3}
       propertyPath: ObjectPoolerAccess
       value: 
       objectReference: {fileID: 861067203}
@@ -826,6 +830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6768805533736557861, guid: 16a584564966bdb4a94d39352118a5e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.42
+      objectReference: {fileID: 0}
     - target: {fileID: 6768805533999075064, guid: 16a584564966bdb4a94d39352118a5e9, type: 3}
       propertyPath: EndMenu
       value: 
@@ -881,6 +889,10 @@ PrefabInstance:
     - target: {fileID: 6768805533999075067, guid: 16a584564966bdb4a94d39352118a5e9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768805534149489368, guid: 16a584564966bdb4a94d39352118a5e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16a584564966bdb4a94d39352118a5e9, type: 3}
